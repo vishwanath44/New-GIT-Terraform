@@ -1,2 +1,13 @@
+ import datetime
+
+# Ask for user input
+name = input("Enter your name: ")
+
+# Get current date and time
+now = datetime.datetime.now()
+
+# Greet the user
+print(f"Hello, {name}!")
+print("Current date and time is:", now.strftime("%Y-%m-%d %H:%M:%S"))
 
 
